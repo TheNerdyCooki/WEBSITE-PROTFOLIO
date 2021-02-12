@@ -1,0 +1,18 @@
+.header
+{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
