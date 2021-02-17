@@ -5,15 +5,37 @@
     justify-content: center;
 }
 
-.grid{
+.grid
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
-.footer{
+.footer
+{
+    background-color: burlywood;
     display: flex;
     justify-content: flex-end;
-    position:absolute;
 }
+
+a:link{ color: white; }
+a:visited{ color: blueviolet; }
+
+.item :hover
+{
+    opacity: 0.8;
+    
+}
+
+.item p
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 3%; 
+    left: 50%;
+    opacity: 0;
+} 
+
+.item:hover p{ opacity: 1; }
